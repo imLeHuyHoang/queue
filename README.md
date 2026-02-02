@@ -6,19 +6,6 @@ Thư viện Queue cung cấp cấu trúc dữ liệu hàng đợi (FIFO - First 
 
 Queue là một cấu trúc dữ liệu hoạt động theo nguyên tắc **FIFO** (First In First Out - vào trước ra trước). Phần tử được thêm vào đầu tiên sẽ được lấy ra đầu tiên, giống như hàng người xếp hàng chờ đợi - người đến trước sẽ được phục vụ trước.
 
-**Thuật ngữ:**
-- **Front/Head (Đầu)**: Vị trí lấy phần tử ra
-- **Rear/Tail (Đuôi)**: Vị trí thêm phần tử vào
-- **Enqueue**: Thao tác thêm phần tử vào đuôi queue
-- **Dequeue**: Thao tác lấy và xóa phần tử ở đầu queue
-
-**Ứng dụng thực tế:**
-- Xử lý hàng đợi in ấn (print queue)
-- Quản lý yêu cầu trong web server
-- Breadth-First Search (BFS) trong thuật toán đồ thị
-- Hệ thống xử lý task/job scheduling
-- Message queue trong hệ thống phân tán
-
 ## Cài đặt
 
 ```bash
